@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CBE13F23153FD88300A022B9 /* TUTrendulateEngine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE13F22153FD88300A022B9 /* TUTrendulateEngine.framework */; };
 		CBE3CF68153D320B00A42767 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3CF67153D320B00A42767 /* UIKit.framework */; };
 		CBE3CF6A153D320B00A42767 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3CF69153D320B00A42767 /* Foundation.framework */; };
 		CBE3CF6C153D320B00A42767 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3CF6B153D320B00A42767 /* CoreGraphics.framework */; };
@@ -15,22 +16,34 @@
 		CBE3CF78153D320B00A42767 /* mGuessAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE3CF77153D320B00A42767 /* mGuessAppDelegate.m */; };
 		CBE3CF7B153D320B00A42767 /* mGuessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE3CF7A153D320B00A42767 /* mGuessViewController.m */; };
 		CBE3CF7E153D320B00A42767 /* mGuessViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBE3CF7C153D320B00A42767 /* mGuessViewController.xib */; };
+		CBE3CF8D153DEEB100A42767 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3CF8C153DEEB100A42767 /* AVFoundation.framework */; };
+		CBE3CF95153E11F000A42767 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CBE3CF94153E11F000A42767 /* Reachability.m */; };
+		CBE3CF99153E164F00A42767 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3CF98153E164E00A42767 /* CFNetwork.framework */; };
+		CBE3CFA2153E17ED00A42767 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3CFA1153E17ED00A42767 /* SystemConfiguration.framework */; };
+		CBE3CFA4153E180A00A42767 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBE3CFA3153E180A00A42767 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CBE13F22153FD88300A022B9 /* TUTrendulateEngine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TUTrendulateEngine.framework; sourceTree = "<group>"; };
 		CBE3CF63153D320B00A42767 /* mGuess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mGuess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CBE3CF67153D320B00A42767 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		CBE3CF69153D320B00A42767 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CBE3CF6B153D320B00A42767 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		CBE3CF6F153D320B00A42767 /* mGuess-Info.plist */ = {isa = PBXFileReference; path = "mGuess-Info.plist"; sourceTree = "<group>"; };
+		CBE3CF6F153D320B00A42767 /* mGuess-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mGuess-Info.plist"; sourceTree = "<group>"; };
 		CBE3CF71153D320B00A42767 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CBE3CF73153D320B00A42767 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CBE3CF75153D320B00A42767 /* mGuess-Prefix.pch */ = {isa = PBXFileReference; path = "mGuess-Prefix.pch"; sourceTree = "<group>"; };
-		CBE3CF76153D320B00A42767 /* mGuessAppDelegate.h */ = {isa = PBXFileReference; path = mGuessAppDelegate.h; sourceTree = "<group>"; };
+		CBE3CF75153D320B00A42767 /* mGuess-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mGuess-Prefix.pch"; sourceTree = "<group>"; };
+		CBE3CF76153D320B00A42767 /* mGuessAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mGuessAppDelegate.h; sourceTree = "<group>"; };
 		CBE3CF77153D320B00A42767 /* mGuessAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mGuessAppDelegate.m; sourceTree = "<group>"; };
-		CBE3CF79153D320B00A42767 /* mGuessViewController.h */ = {isa = PBXFileReference; path = mGuessViewController.h; sourceTree = "<group>"; };
+		CBE3CF79153D320B00A42767 /* mGuessViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mGuessViewController.h; sourceTree = "<group>"; };
 		CBE3CF7A153D320B00A42767 /* mGuessViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mGuessViewController.m; sourceTree = "<group>"; };
 		CBE3CF7D153D320B00A42767 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/mGuessViewController.xib; sourceTree = "<group>"; };
+		CBE3CF8C153DEEB100A42767 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CBE3CF93153E11F000A42767 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CBE3CF94153E11F000A42767 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CBE3CF98153E164E00A42767 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		CBE3CFA1153E17ED00A42767 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		CBE3CFA3153E180A00A42767 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,9 +51,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CBE3CFA4153E180A00A42767 /* CoreLocation.framework in Frameworks */,
+				CBE3CFA2153E17ED00A42767 /* SystemConfiguration.framework in Frameworks */,
+				CBE3CF99153E164F00A42767 /* CFNetwork.framework in Frameworks */,
+				CBE3CF8D153DEEB100A42767 /* AVFoundation.framework in Frameworks */,
 				CBE3CF68153D320B00A42767 /* UIKit.framework in Frameworks */,
 				CBE3CF6A153D320B00A42767 /* Foundation.framework in Frameworks */,
 				CBE3CF6C153D320B00A42767 /* CoreGraphics.framework in Frameworks */,
+				CBE13F23153FD88300A022B9 /* TUTrendulateEngine.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +85,11 @@
 		CBE3CF66153D320B00A42767 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CBE13F22153FD88300A022B9 /* TUTrendulateEngine.framework */,
+				CBE3CFA3153E180A00A42767 /* CoreLocation.framework */,
+				CBE3CFA1153E17ED00A42767 /* SystemConfiguration.framework */,
+				CBE3CF98153E164E00A42767 /* CFNetwork.framework */,
+				CBE3CF8C153DEEB100A42767 /* AVFoundation.framework */,
 				CBE3CF67153D320B00A42767 /* UIKit.framework */,
 				CBE3CF69153D320B00A42767 /* Foundation.framework */,
 				CBE3CF6B153D320B00A42767 /* CoreGraphics.framework */,
@@ -77,6 +100,8 @@
 		CBE3CF6D153D320B00A42767 /* mGuess */ = {
 			isa = PBXGroup;
 			children = (
+				CBE3CF93153E11F000A42767 /* Reachability.h */,
+				CBE3CF94153E11F000A42767 /* Reachability.m */,
 				CBE3CF76153D320B00A42767 /* mGuessAppDelegate.h */,
 				CBE3CF77153D320B00A42767 /* mGuessAppDelegate.m */,
 				CBE3CF79153D320B00A42767 /* mGuessViewController.h */,
@@ -163,6 +188,7 @@
 				CBE3CF74153D320B00A42767 /* main.m in Sources */,
 				CBE3CF78153D320B00A42767 /* mGuessAppDelegate.m in Sources */,
 				CBE3CF7B153D320B00A42767 /* mGuessViewController.m in Sources */,
+				CBE3CF95153E11F000A42767 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,7 +219,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -218,7 +244,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -236,6 +262,11 @@
 		CBE3CF82153D320B00A42767 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../mangoMonitor\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mGuess/mGuess-Prefix.pch";
 				INFOPLIST_FILE = "mGuess/mGuess-Info.plist";
@@ -247,6 +278,11 @@
 		CBE3CF83153D320B00A42767 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../mangoMonitor\"",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "mGuess/mGuess-Prefix.pch";
 				INFOPLIST_FILE = "mGuess/mGuess-Info.plist";
@@ -274,6 +310,7 @@
 				CBE3CF83153D320B00A42767 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
